@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare Solutions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand colored m-0 fs-3">PetCare <span class="coloredd">Solutions</span></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobreAPet">
+                            <i class="me-2 bi bi-house-door"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#servicos">
+                            <i class="me-2 bi bi-bag"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#pacotes">
+                            <i class="me-2 bi bi-box2-heart"></i>
+                            Pacotes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="me-2 bi bi-chat-left-text"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobreAPet">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-pet">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="./img/slide.png" alt="pet1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./img/slideFam.png" alt="pet2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./img/cachorroPet.png" alt="pet3">
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-pet">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-pet">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/abertos.png" class="d-block w-100 rounded" alt="OpenPetCare">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="subtitles">Sobre a <span class="colored2 fw-bold">PetCare Solutions</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aut. Quia, enim! Non, recusandae fuga! Rem explicabo aperiam omnis optio assumenda iusto ex neque, laudantium officia. Necessitatibus cumque voluptates ducimus.</p>
+                            <h3 class="subtitles">Os nossos <span class="colored2 fw-bold">serviços</span></h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa obcaecati facilis ad minus. Ipsam libero autem sapiente consequatur modi at reprehenderit, nihil qui et pariatur quas dolorum omnis commodi nesciunt!</p>
+                            <ul>
+                                <li class="colored2 fw-bold">Clínica Veterinária</li>
+                                <li class="colored2 fw-bold">Grooming e Banho</li>
+                                <li class="colored2 fw-bold">Hotel e Creche</li>
+                                <li class="colored2 fw-bold">Treinamento Comportamental</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="subtitles text-center">O seu <span class="colored fw-bold">PET </span>em primeiro lugar!</h2>
+                </div>
+                <div class="row mt-4">
+                    <div id="cardService" class="col-md-6 col-lg-3 col-sm-12">
+                        <img class="d-block w-100 rounded mb-2" src="./img/vet.png" alt="banhoEtosa">
+                        <h3 class="subtitles fs-2 colored text-center">
+                            Consultas
+                            <i class="bi bi-heart-pulse"></i>
+                        </h3>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo, cupiditate facere expedita a vero? Facere ducimus ipsa quis ab odio voluptates et in, vitae labore esse earum dolorum. Quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusantium quae, nisi, minus ipsa alias ab sunt magni numquam similique quaerat eveniet fuga deleniti atque? Quae voluptates omnis quasi et! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit, vel laudantium quis illum impedit tempore cumque voluptatibus. Eum laudantium adipisci consequuntur corporis accusamus, aspernatur ipsa consectetur non nisi et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus nobis soluta eveniet, voluptatum excepturi neque! Deserunt odio eum voluptatem commodi mollitia veritatis nesciunt laudantium omnis laborum alias. Adipisci, maiores.
+                        </p>
+                    </div>
+                    <div id="cardService" class="col-md-6 col-lg-3 col-sm-12">
+                        <img class="d-block w-100 rounded mb-2" src="./img/banhoEtosa.png" alt="banhoEtosa">
+                        <h3 class="subtitles fs-2 colored text-center">
+                            Banho e Tosa
+                            <i class="bi bi-scissors"></i>
+                        </h3>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo, cupiditate facere expedita a vero? Facere ducimus ipsa quis ab odio voluptates et in, vitae labore esse earum dolorum. Quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusantium quae, nisi, minus ipsa alias ab sunt magni numquam similique quaerat eveniet fuga deleniti atque? Quae voluptates omnis quasi et! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis repudiandae eveniet mollitia similique culpa iste sit cum molestias, ab excepturi autem voluptas distinctio perspiciatis, totam illum minus officia aliquid dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus nobis soluta eveniet, voluptatum excepturi neque! Deserunt odio eum voluptatem commodi mollitia veritatis nesciunt laudantium omnis laborum alias. Adipisci, maiores.
+                        </p>
+                    </div>
+                    <div id="cardService" class="col-md-6 col-lg-3 col-sm-12">
+                        <img class="d-block w-100 rounded mb-2" src="./img/hotelPet.png" alt="banhoEtosa">
+                        <h3 class="subtitles fs-2 colored text-center">
+                            Hotel
+                            <i class="bi bi-building-fill"></i>
+                        </h3>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo, cupiditate facere expedita a vero? Facere ducimus ipsa quis ab odio voluptates et in, vitae labore esse earum dolorum. Quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusantium quae, nisi, minus ipsa alias ab sunt magni numquam similique quaerat eveniet fuga deleniti atque? Quae voluptates omnis quasi et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis modi non libero repudiandae error, corrupti quaerat inventore nulla consequuntur, eos fugit enim optio, dicta nemo. Mollitia commodi similique ipsam facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus nobis soluta eveniet, voluptatum excepturi neque! Deserunt odio eum voluptatem commodi mollitia veritatis nesciunt laudantium omnis laborum alias. Adipisci, maiores.
+                        </p>
+                    </div>
+                    <div id="cardService" class="col-md-6 col-lg-3 col-sm-12">
+                        <img class="d-block w-100 rounded mb-2" src="./img/adestramento.png" alt="banhoEtosa">
+                        <h3 class="subtitles fs-2 colored text-center">
+                            Treinamento
+                            <i class="bi bi-cone-striped"></i>
+                        </h3>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo, cupiditate facere expedita a vero? Facere ducimus ipsa quis ab odio voluptates et in, vitae labore esse earum dolorum. Quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusantium quae, nisi, minus ipsa alias ab sunt magni numquam similique quaerat eveniet fuga deleniti atque? Quae voluptates omnis quasi et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat suscipit excepturi, sed impedit qui nemo, itaque beatae nihil accusamus nostrum sapiente error, quidem nam? Consequuntur ab illum eum rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus nobis soluta eveniet, voluptatum excepturi neque! Deserunt odio eum voluptatem commodi mollitia veritatis nesciunt laudantium omnis laborum alias. Adipisci, maiores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pacotes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="subtitles text-center mb-3 colored">
+                        Nossos <span class="fw-bold coloredd">PACOTES</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-pacotes">
+                                <button data-bs-toggle="tab" data-bs-target="#basic" type="button" class="fw-bold colored2 text-start nav-link active">
+                                    <i class="me-2 bi bi-heart-half"></i>
+                                    Pacote Básico
+                                </button>
+                                <button data-bs-toggle="tab" data-bs-target="#full" type="button" class="fw-bold colored2 text-start nav-link">
+                                    <i class="me-2 bi bi-heart-fill"></i>
+                                    Pacote Completo
+                                </button>
+                                <button data-bs-toggle="tab" data-bs-target="#hosp" type="button" class="fw-bold colored2 text-start nav-link">
+                                    <i class="me-2 bi bi-buildings-fill"></i>
+                                    Pacote de Hospedagem
+                                </button>
+                                <button data-bs-toggle="tab" data-bs-target="#training" type="button" class="fw-bold colored2 text-start nav-link">
+                                    <i class="me-2 bi bi-cone"></i>
+                                    Pacote de Treinamento
+                                </button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <div class="tab-content">
+                            <div id="basic" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Cuidados Essenciais
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Consultas regulares e vacinação para prevenir doenças.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Higiene Impecável
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Banho básico e escovação para manter o pelo saudável.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Profissionalismo Exemplar
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviços prestados por uma equipe experiente e dedicada.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Ambiente Seguro
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Espaço acolhedor e seguro para o seu animal de estimação.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Atendimento Personalizado
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Cuidados atenciosos e individuais para o seu animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Saúde em Foco
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Identificação precoce de problemas de saúde e orientações.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Preços Acessíveis
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Cuidados essenciais a um preço justo.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Confiança e Respeito
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Tratamento profissional com foco no bem-estar do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Orientações para Casa
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Dicas e orientações para cuidados básicos em casa
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Suporte Contínuo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviços confiáveis e suporte ao longo do cuidado do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Atenção Personalizada
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Acompanhamento atencioso e carinhoso durante todo o processo.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Qualidade Garantida
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviços de excelência para a saúde do seu animal de estimação.
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="full" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Saúde Completa
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Exames abrangentes e tratamentos personalizados.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Cuidados Cirúrgicos
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Opções cirúrgicas com equipe especializada.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Higiene Completa
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Banho completo, tosa e escovação para uma limpeza completa.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Sorriso Saudável
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Cuidados dentários para uma boa saúde bucal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Recuperação Garantida
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Acompanhamento pós-cirúrgico e orientações para recuperação.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Nutrição Balanceada
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Conselhos nutricionais para uma dieta equilibrada.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Carinho e Compaixão
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Atendimento compassivo durante todos os procedimentos.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Desconto Exclusivo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Benefícios de um programa de fidelidade com descontos exclusivos.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Bem-estar Completo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Atenção integral para o bem-estar físico e emocional do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Conforto Garantido
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviços de alta qualidade para o conforto do seu animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Profissionalismo Exemplar
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviços de excelência proporcionados por uma equipe especializada.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Tranquilidade Total
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Pacote completo de cuidados para tranquilidade dos donos.
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="hosp" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Acomodação Segura
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Acomodações confortáveis e seguras para o animal durante viagens.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Diversão Garantida
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Creche para animais com atividades e socialização supervisionadas.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Espaço Amplo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Áreas espaçosas para brincadeiras e interação com outros animais.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Alimentação Balanceada
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Alimentação adequada e horários regulares para o animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Cuidado Individualizado
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Equipe dedicada e experiente para atender às necessidades do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Vigilância 24 horas
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Supervisão constante para garantir segurança e bem-estar.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Exercícios e Passeios
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Passeios diários e atividades para estimular o amiguinho.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Conforto em Primeiro Lugar
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Atenção personalizada para garantir o conforto do amiguinho.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Ambiente Limpo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Ambiente higienizado para prevenir doenças e infecções.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Atendimento de Emergência
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Disponibilidade de atendimento veterinário em caso de emergências.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Momentos de Lazer
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Brinquedos e áreas de descanso para entretenimento do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Logística Simplificada
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Serviço de transporte para facilitar a ida e volta do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="training" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Comportamento Exemplar
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento personalizado para atender às necessidades do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Obediência e Disciplina
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento de obediência básica para convívio harmonioso.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Socialização Saudável
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento para interação saudável com outros animais e pessoas.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Solução de Problemas
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Resolução de problemas comportamentais específicos.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Continuidade em Casa
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Orientações personalizadas para dar continuidade ao treinamento em casa.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Reforço Positivo
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Métodos de treinamento positivos e reforço positivo.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Atenção Individualizada
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento dedicado para atender às necessidades do animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Especialistas em Comportamento
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento ministrado por profissionais especializados.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Comunicação Eficiente
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Técnicas de treinamento para uma comunicação eficaz com o animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Habilidades Aprimoradas
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Desenvolvimento de habilidades e comportamentos desejáveis.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Confiança e Segurança
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento que promove confiança e segurança no animal.
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <article class="card mt-2">
+                                            <header class="card-header colored text-center">
+                                                Resultados Duradouros
+                                            </header>
+                                            <div class="card-body colored text-center">
+                                                Treinamento eficaz para alcançar resultados duradouros.
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-3">
+                    <h2 class="subtitles text-center">Fale <span class="colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-4">
+                        <form>
+                            <div class="mb-1">
+                                <label for="nome" class="mb-2 mt-1 form-label colored">Seu nome</label>
+                                <input type="text" id="nome" required class="form-control" >
+                            </div>
+                            <div class="mb-1">
+                                <label for="tel" class="mb-2 mt-1 form-label colored">Seu telefone</label>
+                                <input type="tel" required class="form-control" id="tel">
+                            </div>
+                            <div class="mb-1">
+                                <label for="email" class="mb-2 mt-1 form-label colored">Seu e-mail</label>
+                                <input type="email" required class="form-control" id="email">
+                            </div>
+                            <div class="mb-1">
+                                <label for="mensagem" class="mb-2 mt-1 form-label colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold mt-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-3">
+                            <h3 class="subtitles colored text-center fs-2">
+                                Nos acompanhe
+                                <i class="bi bi-hand-thumbs-up ms-1"></i>
+                            </h3>
+                            <ul class="socialLinks text-center mt-2">
+                                <li>
+                                    <a href="#">
+                                        <i class="colored fs-4 bi bi-facebook ms-1"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="colored fs-4 bi bi-twitter ms-1"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="colored fs-4 bi bi-instagram ms-1"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="colored fs-4 bi bi-whatsapp ms-1"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-5">
+                            <h3 class="subtitles colored text-center fs-2">
+                                Endereço
+                                <i class="bi bi-geo-alt-fill ms-1"></i>
+                            </h3>
+                            <p class="text-center colored">
+                                Avenida Pet Lovers nº 1200, Bairro Vila Vira-Latas - Dog Citty - BR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container pt-3 pb-3 text-center">
+            <span class="colored">&copy; Todos os direitos reservados a Dev-Vargas</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    <script src="./lib/main.js"></script>
+
+</body>
+</html>

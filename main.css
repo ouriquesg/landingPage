@@ -1,0 +1,106 @@
+:root{
+    --font:'Philosopher', sans-serif;
+    --font2:'Roboto Slab', serif;
+    --colored: #E0AFA0;
+    --coloredd: #afc97e;
+    --colored2: #3d6d58;
+    --backgroudNavBar: #463F3A;
+    --backgroudLight: #f4f3ee;
+    --backgroundMedium: #645e5b;
+}
+body{
+    font-family: var(--font2);
+}
+header h1{
+    font-family: var(--font)
+}
+.colored{
+    color: var(--colored);
+}
+.coloredd{
+    color: var(--coloredd);
+}
+.colored2{
+    color: var(--colored2);
+}
+.subtitles{
+    font-family: var(--font);
+}
+.navbar{
+    background-color: var(--backgroudNavBar);
+}
+.nav-item{
+    font-family: var(--font2);
+}
+.navbar-brand:hover,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link{
+    color: var(--colored);
+}
+.navbar-toggler-icon,
+button.navbar-toggler.collapsed,
+button.navbar-toggler,
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: var(--colored);
+}
+.nav-pills .nav-link.active{
+    background-color: var(--backgroudLight);
+    color: var(--colored2);
+}
+#sobreAPet{
+    background-color: var(--backgroudLight);
+}
+#servicos,
+#contact{
+    border-top: 7px dotted var(--colored2);
+    border-bottom: 7px dotted var(--colored2);
+    margin: 6px 0;
+}
+#pacotes{
+    background-color: var(--backgroundMedium);
+}
+article.card{
+    background-color: var(--backgroudNavBar);
+    height: 300px;
+}
+.socialLinks li{
+    list-style: none;
+    display: inline;
+}
+.socialLinks a{
+    text-decoration: none;
+}
+#contact button{
+    background-color: var(--colored);
+    color: var(--backgroudNavBar);
+    width: 100%;
+}
+footer{
+    background-color: var(--backgroudNavBar);
+}
+#nome-error.error,
+#tel-error.error,
+#email-error.error{
+    background-color: var(--colored);
+    color: var(--backgroudNavBar);
+    padding: 5px;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+}
+@media (max-width: 820px){
+    .carousel-item img{
+        height: 300px;
+        width: 100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev{
+        display: none;
+    }
+}
